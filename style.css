@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 260px auto;
+}
+
+.side-bar {
+    background-color: beige;
+    height: 100vh;
+    box-shadow: 1px 0px 5px lightgray;
+    z-index: 5;
+}
+
+.side-bar-logo {
+    width: 44px;
+}
+
+.side-bar-header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 185px;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+.side-bar-header-text {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.side-bar-top-list {
+    padding-top: 30px;
+   
+}
+
+.side-bar-top-list > ul {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.side-bar-top-list > ul > li {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-bottom: 13px;
+}
+
+.home-img, .profile-img, .msg-img, .history-img, .tasks-img, .communities-img, .settings-img, .support-img, .privacy-img {
+    width: 18px;
+    padding-right: 17px;
+}
+
+.side-bar-bottom-list {
+    padding-top: 10px;
+}
+
+.side-bar-bottom-list > ul {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.side-bar-bottom-list > ul > li {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-bottom: 13px;
+}
