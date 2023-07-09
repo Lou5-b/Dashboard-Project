@@ -1,7 +1,8 @@
 body {
     margin: 0;
     display: grid;
-    grid-template-columns: 260px auto;
+    grid-template-columns: 260px auto ;
+    grid-template-rows: auto auto;
 }
 
 .side-bar {
@@ -64,4 +65,53 @@ body {
     font-size: 18px;
     font-family: sans-serif;
     padding-bottom: 13px;
+}
+
+.search-icon {
+    width: 15px;
+}
+
+.top-half {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    align-items: center;
+    width: 100%;
+    z-index: 4;
+}
+
+
+.left-side {
+    display: grid;
+    grid-template-columns: 20px 400px;
+    gap: 10px;
+    padding-left: 30px;
+}
+
+.right-side {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.search-bar {
+    width: 400px;
+    height: 15px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+}
+
+.bell-pic {
+    width: 15px;
+}
+
+.search-bar-profile-icon {
+    width: 30px;
 }
