@@ -7,7 +7,7 @@ body {
 
 .side-bar {
     background-color: antiquewhite;
-    height: 100vh;
+    height: 100%;
     box-shadow: 1px 0px 5px lightgray;
     z-index: 5;
 }
@@ -170,4 +170,33 @@ body {
     border-radius: 15px;
     display: grid;
     align-items: center;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 20px;
+    padding-top: 30px;
+    background-color: rgb(235, 235, 235);
+}
+
+.dashboard-title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 50px;
+    padding-top: 10px;
+}
+
+.card {
+    width: 260px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray;
 }
